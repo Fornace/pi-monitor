@@ -23,15 +23,17 @@ The pi equivalent of Claude Code's `Monitor` tool.
 ## Install
 
 ```bash
-pi install npm:pi-monitor@1.0.0      # global (all projects)
-pi install npm:pi-monitor@1.0.0 -l   # project-local (.pi/settings.json)
+pi install npm:fornace-pi-monitor@1.0.0      # global (all projects)
+pi install npm:fornace-pi-monitor@1.0.0 -l   # project-local (.pi/settings.json)
 ```
 
 Or try it once without installing:
 
 ```bash
-pi -e npm:pi-monitor
+pi -e npm:fornace-pi-monitor
 ```
+
+> **Note on naming:** the npm package is `fornace-pi-monitor` (the unscoped `pi-monitor` was already taken). If you create a `@fornace` npm org, this package can also be published as `@fornace/pi-monitor` — the GitHub repo is [`Fornace/pi-monitor`](https://github.com/Fornace/pi-monitor) either way.
 
 Requires the `@earendil-works/pi-coding-agent` peer (already present in any pi install).
 
